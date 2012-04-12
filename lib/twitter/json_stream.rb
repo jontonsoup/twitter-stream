@@ -14,12 +14,12 @@ module Twitter
     NF_RECONNECT_MAX   = CONST_NUMBER
 
     # app failure reconnections
-    AF_RECONNECT_START = .5
+    AF_RECONNECT_START = 1
     AF_RECONNECT_MUL   = 1
 
     RECONNECT_MAX   = CONST_NUMBER
     RETRIES_MAX     = CONST_NUMBER
-    
+
     DEFAULT_OPTIONS = {
       :method         => 'GET',
       :path           => '/',
